@@ -12,6 +12,7 @@ commands:
     pvpkit:
       description: List all the kits or choose a PvP kit!
       usage: /<command> [<name>|<name> <player>]
+      aliases: [kit]
     createkit:
       description: Create a PvP Kit ingame with all the items in your inventory!
       usage: /<command> <name> [<guiItem>]

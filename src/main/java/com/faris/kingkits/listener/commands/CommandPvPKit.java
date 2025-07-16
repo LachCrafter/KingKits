@@ -30,7 +30,7 @@ public class CommandPvPKit extends KingKitsCommand {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		if (cmd.getName().equals("pvpkit")) {
+		if (cmd.getName().equals("pvpkit") || cmd.getName().equals("kit")) {
 			try {
 				if (sender instanceof Player) {
 					if (!ConfigController.getInstance().getCommands(((Player) sender).getWorld())[0]) {
